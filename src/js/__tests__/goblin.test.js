@@ -1,9 +1,9 @@
-import Board from '../Board';
+import GamePlay from './GamePlay';
 
 it('board', () => {
   document.addEventListener('DOMContentLoaded', () => {
-    const board = new Board();
-    const cells = board.rendering();
+    const goblin = new GamePlay();
+    const cells = goblin.board.rendering();
     const result = cells.querySelectorAll('.cell');
     expect(result).toBe(16);
   });
