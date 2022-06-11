@@ -1,4 +1,4 @@
-import GamePlay from './GamePlay';
+import GamePlay from '../GamePlay';
 
 it('board', () => {
   document.addEventListener('DOMContentLoaded', () => {
