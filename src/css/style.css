@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    font-size: 20px;
+    color: DimGrey;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cell {
+    height: 23%;
+    width: 23%;
+    box-sizing: border-box;
+    background-color: LightCyan;
+    border: 4px solid PaleTurquoise;
+    border-radius: 15%;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: DimGrey;
+    margin: 20px 10px;
+    background-color: PaleTurquoise;
+    border-radius: 2px;
+    border: 2px solid LightCyan;
+}
+
+.btn:hover {
+    background-color: LightCyan ;
+    border-color: PaleTurquoise;
+}
+
+.goblin {
+    background-image: url("../img/goblin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
